@@ -1,4 +1,40 @@
 * {
-    font-family: 'Raleway', sans-serif;
-    text-transform: capitalize;
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    background-color: rgb(238, 228, 191);
+}
+header {
+    font-size: 48px;
+    font-weight: 900;
+    position: fixed;
+    background-color: #FFAA00;
+    padding: 0px 300px 0px 0px;
+    max-width: fit-content;
+}
+nav {
+    position: fixed;
+    top: 325px;
+    float: right;
+    max-width: 1200px;
+}
+.button {
+    padding: 11px;
+    border: 1px dotted #000;
+    background-color: transparent;
+    color: #000;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    height: max-content;
+    margin: 0 8px 8px 0;
+    box-sizing: border-box;
+}
+main {
+    position: relative;
+    top: 400px;
+    z-index: -1;
+    width: 1000px;
+    text-align: justify;
+    padding: 0px 0px 0px 200px;
 }
